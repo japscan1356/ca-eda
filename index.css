@@ -90,7 +90,7 @@
 	background-color: #f2f0eb;
 }
 
-p {
+.welcome {
 	font-family: 'Open Sans';
 	font-size: 2rem;
 }
@@ -149,5 +149,12 @@ p {
 
 .cop {
 	color: whitesmoke;
+	font-size: 1rem;
+}
+
+.card-text {
+	color: whitesmoke;
+	font-family: 'Open Sans';
+	font-weight: bold;
 	font-size: 1rem;
 }
