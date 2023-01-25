@@ -1,0 +1,153 @@
+/*CSS Reset*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: myFont;
+	src:url(roll.ttf);
+}
+
+@font-face {
+	font-family: myFont2;
+	src:url(roll2.ttf);
+}
+
+.name1 {
+	font-size: 8.125rem;
+	font-family: myFont;
+}
+
+
+.do_what {
+	color: rgba(117,173,87,1);
+	font-family: 'Fredoka One';
+	font-size: 3rem;
+}
+
+.proj {
+	background-color: #f2f0eb;
+}
+
+.caption_front {
+	font-family: 'Open Sans';
+	font-size: 2rem;
+}
+
+
+@media (max-width: 1200px){
+	.name1 {
+		font-size: calc(.5vw + 5rem);
+	}
+
+	.caption_front {
+		font-size: calc(.5vw + .8rem);
+	}
+}
+
+
+
+#nav-bar1 {
+	background: rgb(117,173,87);
+	background: linear-gradient(125deg, rgba(117,173,87,1) 0%, rgba(255,255,255,1) 54%, rgba(246,248,250,1) 100%);
+}
+
+#nav-brand {
+	font-family: 'myFont';
+	font-size: 20px;
+}
+
+#nav-brand:hover {
+	color: lightblue !important;
+}
+
+#nav-items {
+	color: red;
+}
+
+.nav-item {
+	font-family: 'Fredoka One';
+	font-size: 20px;
+}
+
+.nav-link:hover {
+	color: lightblue !important;
+}
+
+#bg-image {
+	background-image: url(https://wallpapercave.com/wp/wp11014097.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vh;
+	background-size: 100vw;
+	background-position: center;
+
+}
+
+#about-me {
+	background-color: #f2f0eb;
+}
+
+p {
+	font-family: 'Open Sans';
+	font-size: 2rem;
+}
+
+.card-colors1 {
+	background-color: rgba(117,173,87,1);
+}
+
+.res_proj {
+	color: rgba(117,173,87,1);
+	font-family: 'Fredoka One';
+}
+
+.bg2 {
+	background-color: #f2f0eb;
+	margin-left: .01rem;
+}
+
+#contact_us {
+	background-color: #f2f0eb;
+}
+
+.form-1 {
+	background-color: rgba(117,173,87,1);
+}
+
+#cont_us {
+	color: rgba(117,173,87,1);
+	font-family: 'Fredoka One';
+}
+
+#send_butt {
+	background-color: whitesmoke;
+	font-family: 'Open Sans';
+	font-size: 1.3rem;
+	font-weight: bold;
+
+}
+
+.close_butt {
+	background-color: rgba(117,173,87,1);
+	font-family: 'Open Sans';
+	color: white;
+	font-weight: bold;
+}
+
+.form-group {
+	font-family: 'Open Sans';
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+#foot1 {
+	background-color: rgba(117,173,87,1);
+}
+
+.cop {
+	color: whitesmoke;
+	font-size: 1rem;
+}
